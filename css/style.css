@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    padding: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+a, input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    opacity: .7;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+a:hover,
+input[type="submit"] {
+    opacity: 1;
+}
+
+form {
+    width: 300px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5em;
+}
+
+form label {
+    font-weight: bold;
+    margin-bottom: .3em;
+}
+
+form input,
+form textarea {
+    padding: 5px;
+    resize: none;
+    border-radius: 3px;
+}
+
+form textarea {
+    height: 100px;
+}
